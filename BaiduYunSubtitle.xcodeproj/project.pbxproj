@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140490161AF9E74D00DE2A3C /* SubtitleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 140490141AF9E74C00DE2A3C /* SubtitleParser.h */; };
+		140490171AF9E74D00DE2A3C /* SubtitleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 140490151AF9E74D00DE2A3C /* SubtitleParser.m */; };
+		147AE7E51AF9A528004D6305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147AE7E41AF9A528004D6305 /* Foundation.framework */; };
+		147AE7F01AF9A528004D6305 /* BaiduYunSubtitle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 147AE7EF1AF9A528004D6305 /* BaiduYunSubtitle.mm */; };
+		147AE7FB1AF9A565004D6305 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 147AE7FA1AF9A565004D6305 /* libsubstrate.dylib */; };
+		147AE7FD1AF9A5CC004D6305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147AE7FC1AF9A5CC004D6305 /* UIKit.framework */; };
+		147AE7FF1AF9A616004D6305 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147AE7FE1AF9A616004D6305 /* CoreGraphics.framework */; };
+		14F5D05E1AF9ABC40092EA40 /* SubtitleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F5D05C1AF9ABC40092EA40 /* SubtitleManager.h */; };
+		14F5D05F1AF9ABC40092EA40 /* SubtitleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F5D05D1AF9ABC40092EA40 /* SubtitleManager.m */; };
+		14F5D8CD1AF9C71C0092EA40 /* SubtitleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F5D8CB1AF9C71C0092EA40 /* SubtitleModel.h */; };
+		14F5D8CE1AF9C71C0092EA40 /* SubtitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F5D8CC1AF9C71C0092EA40 /* SubtitleModel.m */; };
+		14F5D8D11AF9DE490092EA40 /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F5D8CF1AF9DE490092EA40 /* UIActionSheet+Blocks.h */; };
+		14F5D8D21AF9DE490092EA40 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F5D8D01AF9DE490092EA40 /* UIActionSheet+Blocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		140490141AF9E74C00DE2A3C /* SubtitleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleParser.h; sourceTree = "<group>"; };
+		140490151AF9E74D00DE2A3C /* SubtitleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleParser.m; sourceTree = "<group>"; };
+		147AE7E11AF9A528004D6305 /* BaiduYunSubtitle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = BaiduYunSubtitle.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		147AE7E41AF9A528004D6305 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		147AE7EA1AF9A528004D6305 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		147AE7EC1AF9A528004D6305 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		147AE7ED1AF9A528004D6305 /* BaiduYunSubtitle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduYunSubtitle-Prefix.pch"; sourceTree = "<group>"; };
+		147AE7EE1AF9A528004D6305 /* BaiduYunSubtitle.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BaiduYunSubtitle.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		147AE7EF1AF9A528004D6305 /* BaiduYunSubtitle.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BaiduYunSubtitle.mm; sourceTree = "<group>"; };
+		147AE7F41AF9A528004D6305 /* BaiduYunSubtitle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = BaiduYunSubtitle.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/BaiduYunSubtitle.plist; sourceTree = "<group>"; };
+		147AE7FA1AF9A565004D6305 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		147AE7FC1AF9A5CC004D6305 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		147AE7FE1AF9A616004D6305 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14F5D05C1AF9ABC40092EA40 /* SubtitleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleManager.h; sourceTree = "<group>"; };
+		14F5D05D1AF9ABC40092EA40 /* SubtitleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleManager.m; sourceTree = "<group>"; };
+		14F5D8CB1AF9C71C0092EA40 /* SubtitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleModel.h; sourceTree = "<group>"; };
+		14F5D8CC1AF9C71C0092EA40 /* SubtitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleModel.m; sourceTree = "<group>"; };
+		14F5D8CF1AF9DE490092EA40 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		14F5D8D01AF9DE490092EA40 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147AE7DD1AF9A528004D6305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147AE7FF1AF9A616004D6305 /* CoreGraphics.framework in Frameworks */,
+				147AE7FD1AF9A5CC004D6305 /* UIKit.framework in Frameworks */,
+				147AE7FB1AF9A565004D6305 /* libsubstrate.dylib in Frameworks */,
+				147AE7E51AF9A528004D6305 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147AE7D61AF9A528004D6305 = {
+			isa = PBXGroup;
+			children = (
+				147AE7E61AF9A528004D6305 /* BaiduYunSubtitle */,
+				147AE7E31AF9A528004D6305 /* Frameworks */,
+				147AE7E21AF9A528004D6305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147AE7E21AF9A528004D6305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7E11AF9A528004D6305 /* BaiduYunSubtitle.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147AE7E31AF9A528004D6305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7FE1AF9A616004D6305 /* CoreGraphics.framework */,
+				147AE7FC1AF9A5CC004D6305 /* UIKit.framework */,
+				147AE7FA1AF9A565004D6305 /* libsubstrate.dylib */,
+				147AE7E41AF9A528004D6305 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147AE7E61AF9A528004D6305 /* BaiduYunSubtitle */ = {
+			isa = PBXGroup;
+			children = (
+				14F5D8CF1AF9DE490092EA40 /* UIActionSheet+Blocks.h */,
+				14F5D8D01AF9DE490092EA40 /* UIActionSheet+Blocks.m */,
+				14F5D8CB1AF9C71C0092EA40 /* SubtitleModel.h */,
+				14F5D8CC1AF9C71C0092EA40 /* SubtitleModel.m */,
+				14F5D05C1AF9ABC40092EA40 /* SubtitleManager.h */,
+				14F5D05D1AF9ABC40092EA40 /* SubtitleManager.m */,
+				140490141AF9E74C00DE2A3C /* SubtitleParser.h */,
+				140490151AF9E74D00DE2A3C /* SubtitleParser.m */,
+				147AE7EE1AF9A528004D6305 /* BaiduYunSubtitle.xm */,
+				147AE7EF1AF9A528004D6305 /* BaiduYunSubtitle.mm */,
+				147AE7E71AF9A528004D6305 /* Package */,
+				147AE7EB1AF9A528004D6305 /* Supporting Files */,
+			);
+			path = BaiduYunSubtitle;
+			sourceTree = "<group>";
+		};
+		147AE7E71AF9A528004D6305 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7E81AF9A528004D6305 /* DEBIAN */,
+				147AE7F11AF9A528004D6305 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		147AE7E81AF9A528004D6305 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7EA1AF9A528004D6305 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		147AE7EB1AF9A528004D6305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7EC1AF9A528004D6305 /* PackageVersion.plist */,
+				147AE7ED1AF9A528004D6305 /* BaiduYunSubtitle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		147AE7F11AF9A528004D6305 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7F21AF9A528004D6305 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		147AE7F21AF9A528004D6305 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7F31AF9A528004D6305 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		147AE7F31AF9A528004D6305 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				147AE7F41AF9A528004D6305 /* BaiduYunSubtitle.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		147AE7DE1AF9A528004D6305 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F5D8D11AF9DE490092EA40 /* UIActionSheet+Blocks.h in Headers */,
+				14F5D8CD1AF9C71C0092EA40 /* SubtitleModel.h in Headers */,
+				14F5D05E1AF9ABC40092EA40 /* SubtitleManager.h in Headers */,
+				140490161AF9E74D00DE2A3C /* SubtitleParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		147AE7E01AF9A528004D6305 /* BaiduYunSubtitle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147AE7F71AF9A528004D6305 /* Build configuration list for PBXNativeTarget "BaiduYunSubtitle" */;
+			buildPhases = (
+				147AE7DB1AF9A528004D6305 /* ShellScript */,
+				147AE7DC1AF9A528004D6305 /* Sources */,
+				147AE7DD1AF9A528004D6305 /* Frameworks */,
+				147AE7DE1AF9A528004D6305 /* Headers */,
+				147AE7DF1AF9A528004D6305 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduYunSubtitle;
+			productName = BaiduYunSubtitle;
+			productReference = 147AE7E11AF9A528004D6305 /* BaiduYunSubtitle.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147AE7D71AF9A528004D6305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					147AE7E01AF9A528004D6305 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 147AE7DA1AF9A528004D6305 /* Build configuration list for PBXProject "BaiduYunSubtitle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147AE7D61AF9A528004D6305;
+			productRefGroup = 147AE7E21AF9A528004D6305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147AE7E01AF9A528004D6305 /* BaiduYunSubtitle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147AE7DB1AF9A528004D6305 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		147AE7DF1AF9A528004D6305 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147AE7DC1AF9A528004D6305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147AE7F01AF9A528004D6305 /* BaiduYunSubtitle.mm in Sources */,
+				14F5D8CE1AF9C71C0092EA40 /* SubtitleModel.m in Sources */,
+				14F5D05F1AF9ABC40092EA40 /* SubtitleManager.m in Sources */,
+				140490171AF9E74D00DE2A3C /* SubtitleParser.m in Sources */,
+				14F5D8D21AF9DE490092EA40 /* UIActionSheet+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		147AE7F51AF9A528004D6305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		147AE7F61AF9A528004D6305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		147AE7F81AF9A528004D6305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduYunSubtitle/BaiduYunSubtitle-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.3;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		147AE7F91AF9A528004D6305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduYunSubtitle/BaiduYunSubtitle-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.3;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147AE7DA1AF9A528004D6305 /* Build configuration list for PBXProject "BaiduYunSubtitle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147AE7F51AF9A528004D6305 /* Debug */,
+				147AE7F61AF9A528004D6305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147AE7F71AF9A528004D6305 /* Build configuration list for PBXNativeTarget "BaiduYunSubtitle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147AE7F81AF9A528004D6305 /* Debug */,
+				147AE7F91AF9A528004D6305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147AE7D71AF9A528004D6305 /* Project object */;
+}
